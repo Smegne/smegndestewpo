@@ -8,6 +8,10 @@ import {
   projectFive,
   projectSix,
   projectSeven,
+  projectEight,
+  projectNine,
+  projectTen,
+  projectEleven,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -70,6 +74,37 @@ const Projects = () => {
           githubLink="#"
           liveLink="https://evangadi.com/"
         />
+        <ProjectsCard
+          title="E-Learnig platform number 1"
+          des="A modern e-learning platform similar to W3Schools, designed with a clean and interactive UI. It provides structured courses, hands-on coding exercises, quizzes, and a user-friendly  code editor learning experience. Built using Node.js, React, MySQL, and Tailwind CSS, it ensures smooth performance, responsiveness, and scalability for learners of all levels"
+          src={projectEight}
+          githubLink="https://github.com/Smegne/w3-elearnig-platform.git"
+          liveLink="#"
+        />
+
+       <ProjectsCard
+          title="(SMS) Student mangment system"
+          des="This project is a Student Management System designed to efficiently handle student records, course enrollments, attendance tracking, and performance evaluation. Built with a modern tech stack, it ensures seamless data management, user-friendly interfaces, and role-based access for students, teachers, and administrators. The system enhances academic administration by automating processes, improving accuracy, and providing insightful reports."
+          src={projectNine}
+          githubLink="https://github.com/Smegne/student-managment-system.git"
+          liveLink="#"
+        />
+
+       <ProjectsCard
+          title="To-Do List APP with node js"
+          des="This project is a To-Do List app built with Node.js, designed to help users efficiently manage tasks and stay organized. It features task creation, editing, deletion, and status tracking with a clean and user-friendly interface. The app ensures smooth performance, real-time updates, and scalability, making task management simple and effective"
+          src={projectTen}
+          githubLink="https://github.com/Smegne/todo-app-with-nodejs.git"
+          liveLink="#"
+        />
+        <ProjectsCard
+          title="E-Learnig platform number 2"
+          des="A modern e-learning platform  designed with a clean and interactive UI. It provides structured courses, hands-on coding exercises, quizzes, and a user-friendly  code editor learning experience. Built using Node.js, React, MySQL, and Tailwind CSS, it ensures smooth performance, responsiveness, and scalability for learners of all levels"
+          src={projectEleven}
+          githubLink="https://github.com/Smegne/FULLSTACK-REACT-AND-NODE-E-LEARNIG-POJECTT.git"
+          liveLink="#"
+        />
+
       </div>
     </section>
   );
